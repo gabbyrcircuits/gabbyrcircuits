@@ -24,20 +24,78 @@ header{
     color:rgb(253, 253, 247);
 }
 
-/* h1 Styles */
-h1{
-    padding:10px;
-    text-align:center;
-    font-size:40px;
-}
 
 /* Navigation Styles */
 nav{
     padding: 10px;
-    text-align: center;
-    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#navContent{
+    display: flex;
+    align-content:
+}
+
+.navlinks{
+    text-align:right;
+    padding-right:50px;
+    display:inline;
+}
+
 
 a{
     color:aliceblue;
+    
+}
+
+#homebutton{
+    font-size: 15px;
+    text-align:left;
+}
+
+
+/* Project Styles */
+.projectCard{
+    width: 100%
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCardContent{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.projectCardDescription{
+    width: 50%;
+    float: left;
+    padding-left:32px;
+    display: grid;
+    gap: 16px;
+    
+}
+
+.projectThumbnail{
+    width: 50%;
+    float: left;
+}
+
+.projectButton{
+    width: 91px;
+    height: 42px;
+    background-color:black;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    text-align: center;
 }

@@ -11,13 +11,17 @@
 
     <!-- HEADER AREA -->
     <header>
-        <h1>Gabrielle's Portfolio</h1>
 
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="#projects">Projects</a>
-            <a href="resume.html">My Resume</a>
+            
+                <p class="navlinks" id="homebutton"><a href="index.html">Gabrielle Roper</a></p>
+
+            <div id="navContent">
+                <p class="navlinks" class="rightnavlinks"><a href="#projects">Projects</a></p>
+                <p class="navlinks" class="rightnavlinks"><a href="resume.html">My Resume</a></p>
+                <p class="navlinks" class="rightnavlinks"><a href="mailto:stu199780@lynnschools.org">Let's work together</a></p> <!-- Let this button/link open outlook-->
+            </div>
+
         </nav>
     </header>
 
@@ -27,10 +31,46 @@
     <!-- MAIN AREA -->
     <main>
         <br>
+        <div id="personalBio">
         <p>I am a student at Lynn Vocational Technical Institute studying Program and Web Development. --Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu felis, pharetra at laoreet eget, scelerisque eu libero. Aenean dictum sollicitudin cursus. Praesent pharetra diam nec mattis pulvinar. Curabitur a lectus vestibulum, sagittis magna a, gravida ipsum. Duis laoreet pretium auctor. Suspendisse potenti. Curabitur turpis lorem, tempor nec urna vel, congue consequat quam. Maecenas accumsan et massa eget eleifend. Suspendisse dignissim leo massa, vel consectetur felis maximus in. Cras sed porttitor elit, a placerat neque.</p>
-
+        </div>
         <br>
 
+        <!-- Project Card #1 -->
+        <div class="projectCard" id="projects">
+            <div class="projectCardContent">
+                <img class="projectThumbnail" src="img\chapter1.1b-image.png">
+                <div class="projectCardDescription">
+                    <p class="projectTitle">Chapter1.1b MSI</p>
+                    <p class="projectDescription">From MSI, a project using JavaScript to calculate numbers and provide a purchase summary. Use F12 to view results.</p>
+                    <a href="project01.html" target="_blank"><button type="button" class="projectButton">View Project</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Card #2 -->
+        <div class="projectCard">
+            <div class="projectCardContent">
+                <img class="projectThumbnail" src="https://placehold.co/484x350">
+                <div class="projectCardDescription">
+                    <p class="projectTitle">Project Title</p>
+                    <p class="projectDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu felis, pharetra at laoreet eget, scelerisque eu libero. Aenean dictum sollicitudin cursus. Praesent pharetra diam nec mattis pulvinar. Curabitur a lectus vestibulum, sagittis magna a, gravida ipsum.</p>
+                    <a href="www.google.com"><button type="button" class="projectButton">View Project</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Card #3 -->
+        <div class="projectCard">
+            <div class="projectCardContent">
+                <img class="projectThumbnail" src="https://placehold.co/484x350">
+                <div class="projectCardDescription">
+                    <p class="projectTitle">Project Title</p>
+                    <p class="projectDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu felis, pharetra at laoreet eget, scelerisque eu libero. Aenean dictum sollicitudin cursus. Praesent pharetra diam nec mattis pulvinar. Curabitur a lectus vestibulum, sagittis magna a, gravida ipsum.</p>
+                    <a href="www.google.com"><button type="button" class="projectButton">View Project</button></a>
+                </div>
+            </div>
+        </div>
     </main>
 
 <br>
